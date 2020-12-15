@@ -6,7 +6,7 @@ Tried of managing ungrouped tailwindcss classnames.
 
 Use TailwindCSSX to group tailwindcss classnames.
 
-### Usage
+## Usage
 Using Array
 
 ```jsx
