@@ -4,10 +4,9 @@ Group TailwindCSS classnames
 
 Tried of managing ungrouped tailwindcss classnames.
 
-Using TailwindCSSX we can group tailwindcss classnames.
+Use TailwindCSSX to group tailwindcss classnames.
 
 ### Usage
----
 Using Array
 
 ```jsx
