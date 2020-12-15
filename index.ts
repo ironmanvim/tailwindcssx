@@ -10,10 +10,10 @@ export default function twx(classNames: classNamesType, add = '', separator = ':
                     return add.length > 0 ? `${add}${separator}${className}` : className;
                 }
                 if (Array.isArray(className)) {
-                    return twx(className);
+                    return twx(className, add, separator);
                 }
                 if (typeof className === "object") {
-                    return twx(classNames);
+                    return twx(classNames, add, separator);
                 }
                 return "";
             })
@@ -24,7 +24,7 @@ export default function twx(classNames: classNamesType, add = '', separator = ':
 
         return keys
             .flatMap(key => {
-                return twx(classNames[key], key.length > 0 ? (add.length > 0 ? `${add}${separator}${key}` : key) : add);
+                return twx(classNames[key], key.length > 0 ? (add.length > 0 ? `${add}${separator}${key}` : key) : add, separator);
             })
             .join(" ");
     }
