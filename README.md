@@ -1,20 +1,12 @@
 # TailwindCSSX
----
+
 Group TailwindCSS classnames
 
-Tried of seeing ungrouped tailwindcss classnames.
+Tried of managing ungrouped tailwindcss classnames.
 Using TailwindCSSX we can group tailwindcss classnames.
 
-### Install
-
-**using npm**
-`npm i tailwindcssx`
-
-**using yarn**
-`yarn add tailwindcssx`
-
 ### Usage
-
+---
 Using Array
 
 ```jsx
