@@ -3,6 +3,7 @@
 Group TailwindCSS classnames
 
 Tried of managing ungrouped tailwindcss classnames.
+
 Using TailwindCSSX we can group tailwindcss classnames.
 
 ### Usage
